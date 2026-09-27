@@ -15,7 +15,8 @@ Campus Care is a grievance redressal and compliance tracking platform built on t
 7. [Installation](#installation)
 8. [API Reference](#api-reference)
 9. [Core Workflows](#core-workflows)
-10. [Author](#author)
+10. [Project Link](#project-link)
+11. [Author](#author)
 
 ---
 
@@ -409,6 +410,12 @@ A nightly cron job:
 2. Flags any where `createdAt` exceeds `SLA_BREACH_DAYS` (7 by default).
 3. Sets `is_sla_breached = true`, logs the event to `ComplainHistory`, and updates the department's dashboard.
 4. Emails the relevant HOD and Dean.
+
+---
+
+## Project Link
+
+- **[Campus Care](https://campus-care-mridul-saha.onrender.com/)**
 
 ---
 
